@@ -30,6 +30,11 @@ call plug#begin()
 	"Airline Plugin	
 	Plug 'vim-airline/vim-airline'
 	"Aireline Plugin	
+	Plug 'preservim/nerdcommenter'
+	
+	Plug 'mattn/emmet-vim'
+	Plug 'tpope/vim-surround'
+	Plug 'pangloss/vim-javascript'
 call plug#end()
 
 "Generic Settings	
@@ -57,6 +62,7 @@ set nu rnu
 "Line Number Settings	
 
 set ai
+filetype plugin on
 
 "Generic Settings	
 
